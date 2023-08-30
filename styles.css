@@ -1,0 +1,36 @@
+/* Sytling of the Index page */
+
+.index-body {
+    background-color:rgb(245, 238, 223);
+}
+
+.page-title {
+    font-family: 'Monaco', sans-serif;
+    color: rgb(28, 83, 67);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipes {
+    text-align: left;
+    font-family: 'Papyrus', serif;
+    padding-bottom: 5px;
+}
+
+.recipes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.recipes-list  a {
+   color: rgb(28, 83, 67);
+   text-decoration: none;
+   font-size: 20px;
+}
