@@ -1,8 +1,61 @@
-/* Sytling of the Index page */
+/* Shared classes between pages */
 
-.index-body {
+body {
     background-color:rgb(245, 238, 223);
 }
+
+.recipe-title {
+    text-align: center;
+    font-family: 'Monaco', sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.title {
+    color: rgb(44, 43, 43);
+    font-family: 'Monaco', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text {
+    text-align: center;
+    color: rgb(44, 43, 43);
+    font-family: 'Papyrus', serif;
+}
+
+.ingredients {
+    color: rgb(44, 43, 43);
+    font-family: 'Papyrus', serif;
+}
+
+.steps {
+    color: rgb(44, 43, 43);
+    text-align: left;
+    font-family: 'Papyrus', serif;
+    padding: 4px;
+}
+
+ol .steps {
+    align-items: center;
+}
+
+.title.description {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.container ol {
+    width:700px;
+}
+
+/* Sytling of the Index page */
 
 .page-title {
     font-family: 'Monaco', sans-serif;
@@ -22,15 +75,49 @@
     padding: 0;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
 .recipes-list  a {
    color: rgb(28, 83, 67);
    text-decoration: none;
    font-size: 20px;
+}
+
+/* Pizza Page Styling */
+
+.pizza {
+    color: rgb(114, 6, 6);
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.container div ul {
+    padding: 5px;
+    list-style:circle;
+}
+
+.container div {
+    margin: 15px;
+}
+
+.pizza-ingredients {
+    display: flex;
+    text-align: left;
+    align-items:start;
+}
+
+/* Chocotorta page Styling */
+
+.chocotorta {
+    color: rgb(71, 38, 16);
+}
+
+/* Lemonade page Styling */
+
+.lemonade {
+    color: rgb(19, 92, 23);
 }
